@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    file: require('fs').readFileSync('../rsvp.js/lib/rsvp/promise.js').toString(),
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
