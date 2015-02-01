@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import highlight from 'npm:highlightjs';
+import highlight from 'npm:highlight.js';
 import lodash from 'npm:lodash';
 
 export default Ember.Component.extend({
