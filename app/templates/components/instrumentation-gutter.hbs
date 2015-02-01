@@ -1,4 +1,5 @@
 {{#each instrument in data}}
-  <div class="instrumentation-item" {{bind-attr style=instrument.style}}>
-  </div>
+  {{#link-to 'range.index' instrument.instrument
+                           class="instrumentation-item"
+                           style=instrument.style}}{{/link-to}}
 {{/each}}
